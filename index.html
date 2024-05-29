@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Melissa | Portafolio Dev</title>
+        <link href="assets/css/styles.css" rel="stylesheet">
+        <!-- Animaciones CSS CDN -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    </head>
+    <body>
+        <!--Barra de Navegación-->
+        <nav>
+            <h1>Melissa Ochoa</h1>
+            <ul>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="burger-menu" id="burger-menu">
+                <ion-icon class="bars" name="menu-outline"></ion-icon>
+            </button>
+        </nav>
+
+        <!--Sección Hero-->
+        <section class="hero" id="about">
+            <img src="assets/images/img_about.jpeg" alt="about-me" class="hero-img" loading="lazy">
+            <div class="bio animate__animated animate__shakeX">
+                <h2 class="bio-title">About Me</h2>
+                <p class="bio-text">
+                    Melissa Ochoa, I am a student at the Tecnológico Superior de San Pedro de las Colonias, enrolled in the computer systems engineering career with a specialization in databases.
+                </p>
+            </div>
+        </section>
+
+        <!--Sobre Mí-->
+        <section class="more-about">
+            <h2>More about me</h2>
+            <p>I am a Computer Systems Engineering student with knowledge in languages such as C# and SQL, as well as hands-on experience using tools such as SQL Server, Visual Studio, Visual Studio Code, and Android Studio. Throughout my career, I have had the privilege of working on software development projects as well as database design and implementation. I am currently expanding my knowledge, learning Python, Git, Github, HTML and CSS.</p>
+        </section>
+
+        <!--Sección Habilidades-->
+        <section class="skills" id="skills">
+            <h2 class="skill-header">My Top Skills</h2>
+            <div class="skills-wrapper">
+                <div class="first-set animate_animated animate_pulse">
+                    <img src="assets/icons/sql.jpg" alt="" loading="lazy" class="icon icon-card">
+                    <img src="assets/icons/icons8-css3.svg" alt="" loading="lazy" class="icon icon-card">
+                    <img src="assets/icons/icons8-github-50.svg" alt="" loading="lazy" class="icon icon-card">
+                </div>
+                <div class="second-set animate_animated animate_pulse">
+                    <img src="assets/icons/icons8-html-5.svg" alt="" loading="lazy" class="icon icon-card">
+                    <img src="assets/icons/icons8-javascript.svg" alt="" loading="lazy" class="icon icon-card">
+                    <img src="assets/icons/c.jpg" alt="" loading="lazy" class="icon icon-card">
+                </div>
+            </div>
+        </section>
+
+        <!--Sección de Proyectos-->
+        <section class="projects" id="projects">
+            <h2 class="projects-title">Some of my Recent Projects</h2>
+
+            <div class="projects-container">
+
+                <div class="project-container project-card">
+                    <img src="assets/images/project_1.png" alt="" loading="lazy" class="project-pic">
+                    <h3 class="project-title">Pinterest</h3>
+                    <p class="project-details">This project is a clone of the pinterest user interface, created purely with HTML5 and CSS3.</p>
+                    <a href="https://github.com/MelissaOchoa17/interfazpinterest" target="_blank" class="project-link">Check it out!</a>
+                </div>
+
+                <div class="project-container project-card">
+                    <img src="assets/images/project_2.png" alt="" loading="lazy" class="project-pic">
+                    <h3 class="project-title">Mascotas</h3>
+                    <p class="project-details">This website contains information about penguins, their different species, among other data, it was created with HTML5 and CSS3.</p>
+                    <a href="https://github.com/MelissaOchoa17/mascotas" target="_blank" class="project-link">Check it out!</a>
+                </div>
+
+                <div class="project-container project-card">
+                    <img src="assets/images/project_3.png" alt="" loading="lazy" class="project-pic">
+                    <h3 class="project-title">Hello, Forest!</h3>
+                    <p class="project-details">Web page using flexbox, created with HTML5 and CSS3.</p>
+                    <a href="https://github.com/MelissaOchoa17/helloForest" target="_blank" class="project-link">Check it out!</a>
+                </div>
+
+            </div>
+        </section>
+
+        <!--Sección Contacto-->
+        <!--Sección de Redes Sociales-->
+        <section>
+            <div class="socials">
+                <a href="https://github.com/MelissaOchoa17" target="_blank"><img src="assets/icons/github_icon.gif" alt="GitHub" loading="lazy" class="socicon"></a>
+
+                <a href="https://www.linkedin.com/in/melissa-ochoa17/" target="_blank"><img src="assets/icons/linkedin_icon.gif" alt="LinkedIn" loading="lazy" class="socicon"></a>
+            </div>
+        </section>
+
+        <!--Scroll button-->
+        <i class="scroll-up" id="scroll-up">
+            <img src="assets/icons/icon1_scroll.gif" alt="" class="socicon up-arrow">
+        </i>
+
+        <!--Sección Footer-->
+
+        <footer>
+            <p>Built with &#x2661; by <a href="https://www.linkedin.com/in/melissa-ochoa17/" target="_blank">Melissa Ochoa</a></p>
+        </footer>
+            <!-- Website scripts -->
+            <script src="assets/js/app.js"></script>
+
+            <!-- Ion icons scripts -->
+            <script
+            type="module"
+            src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+            ></script>
+            <script
+            nomodule
+            src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+            ></script>
+    </body>
+</html>
